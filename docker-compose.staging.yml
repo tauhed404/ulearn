@@ -5,7 +5,7 @@ services:
         build:
             context: .
             dockerfile: .docker/staging/Dockerfile
-        container_name: testLearn
+        container_name: testlearn
         ports:
             - "8123:80"
         volumes:

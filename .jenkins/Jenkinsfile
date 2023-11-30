@@ -5,7 +5,7 @@ pipeline {
             agent any
             environment {
                 ENV = credentials('ENV')                                // .env file
-                DOCKER_IMAGE_NAME = credentials('DOCKER_IMAGE_NAME')    // test-ulearn_development-app
+                DOCKER_IMAGE_NAME = credentials('DOCKER_IMAGE_NAME')    // bysl-testlearn_development-app
                 PORT = credentials('PORT')                              // 8123
                 STORAGE_PATH = credentials('STORAGE_PATH')              // /var/www/ulearn/storage
                 UPLOADS_PATH = credentials('UPLOADS_PATH')              // /var/www/ulearn/public/uploads
