@@ -6,7 +6,7 @@ pipeline {
             environment {
                 ENV = credentials('ENV')                                // .env file
                 DOCKER_IMAGE_NAME = credentials('DOCKER_IMAGE_NAME')    // test-ulearn_development-app
-                PORT = credentials('PORT')                              // 8070
+                PORT = credentials('PORT')                              // 8123
                 STORAGE_PATH = credentials('STORAGE_PATH')              // /var/www/ulearn/storage
                 UPLOADS_PATH = credentials('UPLOADS_PATH')              // /var/www/ulearn/public/uploads
             }

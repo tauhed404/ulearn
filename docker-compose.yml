@@ -7,7 +7,7 @@ services:
             dockerfile: .docker/development/Dockerfile
         container_name: testLearn
         ports:
-            - "8070:80"
+            - "8123:80"
         volumes:
             - ./:/var/www/html
         networks:
