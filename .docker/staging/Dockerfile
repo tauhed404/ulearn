@@ -45,7 +45,7 @@ COPY . .
 
 RUN chown -R www-data:www-data /var/www/html && a2enmod rewrite
 
-RUN composer install --ignore-platform-reqs
+RUN composer update --ignore-platform-reqs
 
 # RUN cp .env.example .env
 
